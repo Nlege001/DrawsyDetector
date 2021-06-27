@@ -4,7 +4,7 @@ import dlib
 from imutils import face_utils
 
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 
 detector = dlib.get_frontal_face_detector()
