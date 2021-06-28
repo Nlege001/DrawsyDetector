@@ -10,6 +10,7 @@ import numpy as np
 import dlib
 from imutils import face_utils
 import vlc
+import time
 
 # This opens the webcam and takes an instance of it. Usually the index to pass is 1
 # but in our case we use one as the id associated with the webcam is 1.
@@ -87,20 +88,25 @@ while True:
             sleepy += 1
             drowsy = 0
             active = 0
-            sound_file = vlc.MediaPlayer("/Users/naol/PycharmProjects/DrawsyDetector/alertSound.mp3")
+            sound_file = vlc.MediaPlayer("/Users/naol/PycharmProjects/DrawsyDetector/sleeping.aiff")
             if (sleepy > 6):
                 status = "SLEEPING...ALERT !!!"
                 color = (255, 0, 0)  # BLUE COLOR
                 sound_file.play()
+                time.sleep(3)
 
 
         elif (left_blink == 1 or right_blink == 1):
             sleepy = 0
             active = 0
             drowsy += 1
+            sound_file = vlc.MediaPlayer('/Users/naol/PycharmProjects/DrawsyDetector/drowsy.aiff')
             if (drowsy > 6):
                 status = "DROWSY....ALERT !"
                 color = (0, 0, 255)  # RED COLOR
+                sound_file.play()
+                time.sleep(3)
+
 
         else:
             drowsy = 0
