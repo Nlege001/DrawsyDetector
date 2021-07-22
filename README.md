@@ -27,6 +27,11 @@
 ### Then the following function uses the above function so that it can calculate specific distances between selected landmarks on the face
 <img src= https://github.com/Nlege001/DrawsyDetector/blob/master/snippet_2.jpg>
 
+### Then we detect the face of the user and we set the landmakrs on the video input and do our calculations to determine whether the users is drowsy or not.
+### We have three possible outcomes:
+- Active
+- Sleepy (an alert is played by the vlc module so that the user awakes)
+- Drowsy (an alert is played to make the user active)
     
     
     
