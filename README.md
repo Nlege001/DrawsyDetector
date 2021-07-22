@@ -21,6 +21,7 @@
 ## Explanation of the taught process
 #### So as you can see, if we calculate the distance between these landmarks and compare them to an accpted distance, we can actually determine if a user is drowsy or not. However the results can vary depending on what type of camera is used (quality) and also from person to person.
 
+## This is what the following code snippet is trying to do
 
     
     
