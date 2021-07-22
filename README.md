@@ -18,7 +18,7 @@
 ## The facial landmarks that dlib provides are shown below
 <img src =https://github.com/Nlege001/DrawsyDetector/blob/master/facial_landmarks_68markup.jpg width = 500>
 
-## Explanintion of the taight process
+## Explanintion of the taught process
 #### So as you can see, if we calculate the distance between these landmarks and compare them to an accpted distance, we can actually determine if a user is drowsy or not. However the results can vary depending on what type of camera is used (quality) and also from person to person.
 
 
