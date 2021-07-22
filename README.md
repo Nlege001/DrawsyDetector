@@ -16,7 +16,7 @@
 - The points in our case are landmarks of differnt points on our face that the dlib module provides.
 
 ## The facial landmarks that dlib provides are showen below
-https://github.com/Nlege001/DrawsyDetector/blob/master/facial_landmarks_68markup.jpg
+<img src =https://github.com/Nlege001/DrawsyDetector/blob/master/facial_landmarks_68markup.jpg>
 
     
     
