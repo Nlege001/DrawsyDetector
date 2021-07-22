@@ -6,7 +6,7 @@
     - 🔉 vlc
     
 # The goal of the project
-### The goal of this project was to create a prototype of a program that can be built on so that It can help in avoiding drowsy driving and potentially save lives by preventing car accients during long drives.
+###### The goal of this project was to create a prototype of a program that can be built on so that It can help in avoiding drowsy driving and potentially save lives by preventing car accients during long drives.
 
     
     
