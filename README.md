@@ -15,7 +15,7 @@
 - numpy is used to handle the array based calculations such as the Eucleadian distance to calculate the distance between two points. 
 - The points in our case are landmarks of differnt points on our face that the dlib module provides.
 
-## The facial landmarks that dlib provides are showen below
+## The facial landmarks that dlib provides are shown below
 <img src =https://github.com/Nlege001/DrawsyDetector/blob/master/facial_landmarks_68markup.jpg width = 500>
 
     
