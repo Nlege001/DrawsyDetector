@@ -24,6 +24,9 @@
 ### This is what the following code snippet is trying to do
 <img src= https://github.com/Nlege001/DrawsyDetector/blob/master/snippet.jpg>
 
+### Then the following function uses the above function so that it can calculate specific distances between selected landmarks on the face
+<img src= https://github.com/Nlege001/DrawsyDetector/blob/master/snippet_2.jpg>
+
     
     
     
