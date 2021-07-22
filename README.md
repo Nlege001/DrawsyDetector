@@ -10,6 +10,7 @@
 
 
 ### How it works?
+##### The above modules used in this program explain how this program was implemented. OpenCV is used to access real time video feed form the device that the program is running on and numpy is used to handle the ar
 
 
     
