@@ -29,7 +29,7 @@
 
 ### Then we detect the face of the user and we set the landmakrs on the video input and do our calculations to determine whether the users is drowsy or not.
 ### We have three possible outcomes:
-- Active
+- Active (user is fully awake)
 - Sleepy (an alert is played by the vlc module so that the user awakes)
 - Drowsy (an alert is played to make the user active)
     
