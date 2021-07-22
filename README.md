@@ -14,6 +14,7 @@
 - OpenCV is used to access real time video feed form the device that the program is running on 
 - numpy is used to handle the array based calculations such as the Eucleadian distance to calculate the distance between two points. 
 - The points in our case are landmarks of differnt points on our face that the dlib module provides.
+- vlc module is used to play the alerts that awake users after the users state has been determined
 
 ## The facial landmarks that dlib provides are shown below
 <img src =https://github.com/Nlege001/DrawsyDetector/blob/master/facial_landmarks_68markup.jpg width = 500>
