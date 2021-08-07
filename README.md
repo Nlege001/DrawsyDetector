@@ -31,7 +31,25 @@ def compute(point_A, point_B):
 ```
 
 ### Then the following function uses the above function so that it can calculate specific distances between selected landmarks on the face
-<img src= https://github.com/Nlege001/DrawsyDetector/blob/master/snippet_2.jpg>
+```python
+# The function below will use the above Euclidean distance calculating function to roughly estimate whether
+# the user has is_blinking by detecting the distance between the eye landmarks (37,38,39,40,41,42- left eye and
+# 43,44,45,46,47,48- - right eye)
+
+# Depending on the eye size and webcam quality, results might vary
+
+def is_blinking(a, b, c, d, e, f):
+    up = compute(b, d) + compute(c, e)
+    down = compute(a, f)
+    ratio = up / (2.0 * down)
+
+    if (ratio > 0.25):
+        return 2
+    elif (ratio > 0.21 and ratio <= 0.25):
+        return 1
+    else:
+        return 0
+```
 
 ### Then we detect the face of the user and we set the landmakrs on the video input and do our calculations to determine whether the users is drowsy or not.
 ### We have three possible outcomes:
